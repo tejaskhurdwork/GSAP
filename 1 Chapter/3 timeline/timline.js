@@ -1,4 +1,4 @@
-let tl = gsap.timeline()
+let tl = gsap.timeline();
 
 // now you can run animation in synchronously
 
@@ -8,7 +8,7 @@ tl.to(".box-1", {
   delay: 1,
   repeat: 1, 
   yoyo: true
-})
+});
 
 tl.to(".box-2", {
   x: 1200,
@@ -16,7 +16,7 @@ tl.to(".box-2", {
   delay: -0.5,
   repeat: 1, 
   yoyo: true
-})
+});
 
 
 tl.to(".box-3", {
@@ -25,4 +25,4 @@ tl.to(".box-3", {
   delay: -0.5,
   repeat: 1, 
   yoyo: true
-})
+});

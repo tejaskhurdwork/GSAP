@@ -9,11 +9,11 @@ gsap.to(".box-1", {
   repeat: 1, // --> compulsory for yoyo and (repeat: -1) for infinite
   yoyo: true,
   scale: 0.5
-})
+});
 
 gsap.from(".box-2", {
   x: 1200,
   duration: 3.5,
   delay: 1,
   scale: 0.5
-})
+});
